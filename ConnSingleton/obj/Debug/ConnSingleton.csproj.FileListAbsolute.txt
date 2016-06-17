@@ -1,0 +1,5 @@
+C:\Users\SOFTWARE\Source\Repos\Deneme\MailBox\ConnSingleton\bin\Debug\ConnSingleton.dll
+C:\Users\SOFTWARE\Source\Repos\Deneme\MailBox\ConnSingleton\bin\Debug\ConnSingleton.pdb
+C:\Users\SOFTWARE\Source\Repos\Deneme\MailBox\ConnSingleton\obj\Debug\ConnSingleton.csprojResolveAssemblyReference.cache
+C:\Users\SOFTWARE\Source\Repos\Deneme\MailBox\ConnSingleton\obj\Debug\ConnSingleton.dll
+C:\Users\SOFTWARE\Source\Repos\Deneme\MailBox\ConnSingleton\obj\Debug\ConnSingleton.pdb
