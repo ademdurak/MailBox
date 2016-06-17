@@ -25,6 +25,7 @@ namespace MailBox
         {
             try
             {
+                //deneme
                 using (cmd = new SqlCommand())
                 {
                     cmd.Connection = cnn;
