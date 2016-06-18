@@ -101,9 +101,8 @@
     <Content Include="Amin\assets\ckeditor\config.js" />
     <Content Include="Amin\assets\ckeditor\contents.css" />
     <Content Include="Amin\assets\ckeditor\styles.js" />
+    <Content Include="Amin\blank.aspx" />
     <Content Include="Amin\blank.html" />
-    <Content Include="Amin\buttons.html" />
-    <Content Include="Amin\chart-chartjs.html" />
     <Content Include="Amin\css\bootstrap-theme.css" />
     <Content Include="Amin\css\bootstrap.min.css" />
     <Content Include="Amin\css\Custom.css" />
@@ -122,10 +121,6 @@
     <Content Include="Amin\fonts\ElegantIcons.svg" />
     <Content Include="Amin\fonts\fontawesome-webfont.svg" />
     <Content Include="Amin\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Amin\form_component.html" />
-    <Content Include="Amin\form_validation.html" />
-    <Content Include="Amin\general.html" />
-    <Content Include="Amin\grids.html" />
     <Content Include="Amin\img\arrow-up.png" />
     <Content Include="Amin\img\avatar-mini.jpg" />
     <Content Include="Amin\img\avatar-mini2.jpg" />
@@ -218,11 +213,10 @@
     <Content Include="Amin\js\sparkline-chart.js" />
     <Content Include="Amin\js\sparklines.js" />
     <Content Include="Amin\js\xcharts.min.js" />
-    <Content Include="Amin\login.html" />
+    <Content Include="Amin\Login.aspx" />
     <Content Include="Amin\MailAdd.aspx" />
     <Content Include="Amin\Profile.aspx" />
     <Content Include="Amin\UsersInformation.aspx" />
-    <Content Include="Amin\widgets.html" />
     <Content Include="packages.config" />
     <Content Include="Main.Master" />
     <Content Include="fonts\fontawesome-webfont.eot" />
@@ -281,12 +275,26 @@
     <Compile Include="Amin\404.aspx.designer.cs">
       <DependentUpon>404.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Amin\blank.aspx.cs">
+      <DependentUpon>blank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Amin\blank.aspx.designer.cs">
+      <DependentUpon>blank.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Amin\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Amin\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Amin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Amin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Amin\MailAdd.aspx.cs">
       <DependentUpon>MailAdd.aspx</DependentUpon>

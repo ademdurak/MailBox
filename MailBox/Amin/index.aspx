@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template" />
     <meta name="author" content="GeeksLabs" />
-    <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal" />
+    <meta name="keyword" content="Creative, Yönetim Paneli, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal" />
     <link rel="shortcut icon" href="img/favicon.png" />
 
     <title>Creative - Bootstrap Admin Template</title>
@@ -274,7 +274,7 @@
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="profile-ava">
-                                <img alt="" src="img/avatar1_small.jpg">
+                                <img alt="" src="img/avatar1_small.jpg"/>
                             </span>
                             <span class="username">Jenifer Smith</span>
                             <b class="caret"></b>
@@ -294,7 +294,7 @@
                                 <a href="#"><i class="icon_chat_alt"></i>Chats</a>
                             </li>
                             <li>
-                                <a href="login.html"><i class="icon_key_alt"></i>Log Out</a>
+                                <a href="Login.aspx"><i class="icon_key_alt"></i>Log Out</a>
                             </li>
                             <li>
                                 <a href="documentation.html"><i class="icon_key_alt"></i>Documentation</a>
@@ -319,21 +319,21 @@
                     <li class="active">
                         <a class="" href="index.aspx">
                             <i class="icon_house_alt"></i>
-                            <span>Dashboard</span>
+                            <span>Yönetim Paneli</span>
                         </a>
                     </li>
                     <li class="sub-menu">
                         <a href="javascript:;" class="">
                             <i class="icon_document_alt"></i>
-                            <span>Forms</span>
+                            <span>Mail</span>
                             <span class="menu-arrow arrow_carrot-right"></span>
                         </a>
                         <ul class="sub">
-                            <li><a class="" href="form_component.html">Form Elements</a></li>
-                            <li><a class="" href="form_validation.html">Form Validation</a></li>
+                            <li><a class="" href="MailAdd.aspx">Ekle</a></li>
+                            <%--<li><a class="" href="form_validation.html">Form Validation</a></li>--%>
                         </ul>
                     </li>
-                    <li class="sub-menu">
+                <%--    <li class="sub-menu">
                         <a href="javascript:;" class="">
                             <i class="icon_desktop"></i>
                             <span>UI Fitures</span>
@@ -344,15 +344,15 @@
                             <li><a class="" href="buttons.html">Buttons</a></li>
                             <li><a class="" href="grids.html">Grids</a></li>
                         </ul>
-                    </li>
-                    <li>
+                    </li>--%>
+                    <%--<li>
                         <a class="" href="chart-chartjs.html">
                             <i class="icon_piechart"></i>
                             <span>Charts</span>
                         </a>
-                    </li>
+                    </li>--%>
 
-                    <li class="sub-menu">
+                   <%-- <li class="sub-menu">
                         <a href="javascript:;" class="">
                             <i class="icon_table"></i>
                             <span>Tables</span>
@@ -361,7 +361,7 @@
                         <ul class="sub">
                             <li><a class="" href="UsersInformation.aspx">Kullanıcılar</a></li>
                         </ul>
-                    </li>
+                    </li>--%>
 
                     <li class="sub-menu">
                         <a href="javascript:;" class="">
@@ -370,10 +370,10 @@
                             <span class="menu-arrow arrow_carrot-right"></span>
                         </a>
                         <ul class="sub">
-                            <li><a class="" href="profile.html">Profile</a></li>
-                            <li><a class="" href="login.html"><span>Login Page</span></a></li>
-                            <li><a class="" href="blank.html">Blank Page</a></li>
-                            <li><a class="" href="404.html">404 Error</a></li>
+                            <li><a class="" href="Profile.aspx">Profile</a></li>
+                            <li><a class="" href="Login.aspx"><span>Login Page</span></a></li>
+                            <%--<li><a class="" href="blank.html">Blank Page</a></li>--%>
+                            <li><a class="" href="404.aspx">404 Error</a></li>
                         </ul>
                     </li>
 
@@ -389,10 +389,10 @@
                 <!--overview start-->
                 <div class="row">
                     <div class="col-lg-12">
-                        <h3 class="page-header"><i class="fa fa-laptop"></i>Dashboard</h3>
+                        <h3 class="page-header"><i class="fa fa-laptop"></i>Yönetim Paneli</h3>
                         <ol class="breadcrumb">
                             <li><i class="fa fa-home"></i><a href="index.aspx">Home</a></li>
-                            <li><i class="fa fa-laptop"></i>Dashboard</li>
+                            <li><i class="fa fa-laptop"></i>Yönetim Paneli</li>
                         </ol>
                     </div>
                 </div>
@@ -442,7 +442,7 @@
                 <!--/.row-->
 
 
-                <div class="row">
+               <%-- <div class="row">
                     <div class="col-lg-9 col-md-12">
 
                         <div class="panel panel-default">
@@ -490,7 +490,7 @@
                     </div>
 
 
-                </div>
+                </div>--%>
 
 
                 <!-- Today status end -->
@@ -502,7 +502,7 @@
                     <div class="col-lg-9 col-md-12">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h2><i class="fa fa-flag-o red"></i><strong>Registered Users</strong></h2>
+                                <h2><i class="fa fa-flag-o red"></i><strong>Kayıtlı Kullanıcılar</strong></h2>
                                 <div class="panel-actions">
                                     <a href="index.aspx#" class="btn-setting"><i class="fa fa-rotate-right"></i></a>
                                     <a href="index.aspx#" class="btn-minimize"><i class="fa fa-chevron-up"></i></a>
@@ -523,7 +523,7 @@
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <img src="img/Germany.png" style="height: 18px; margin-top: -2px;"></td>
+                                                <img src="img/Germany.png" style="height: 18px; margin-top: -2px;"/></td>
                                             <td>Germany</td>
                                             <td>2563</td>
                                             <td>1025</td>
@@ -635,7 +635,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <img src="img/Germany.png" style="height: 18px; margin-top: -2px;"></td>
+                                                <img src="img/Germany.png" style="height: 18px; margin-top: -2px;"/></td>
                                             <td>France</td>
                                             <td>265</td>
                                             <td>102</td>

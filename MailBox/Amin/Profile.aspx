@@ -43,7 +43,7 @@
             </div>
 
             <!--logo start-->
-            <a href="index.html" class="logo">Nice <span class="lite">Admin</span></a>
+            <a href="index.aspx" class="logo">Nice <span class="lite">Admin</span></a>
             <!--logo end-->
 
             <div class="nav search-row" id="top_menu">
@@ -51,7 +51,7 @@
                 <ul class="nav top-menu">
                     <li>
                         <form class="navbar-form">
-                            <input class="form-control" placeholder="Search" type="text">
+                            <input class="form-control" placeholder="Search" type="text"/>
                         </form>
                     </li>
                 </ul>
@@ -282,7 +282,7 @@
                                 <a href="#"><i class="icon_chat_alt"></i>Chats</a>
                             </li>
                             <li>
-                                <a href="login.html"><i class="icon_key_alt"></i>Log Out</a>
+                                <a href="Login.aspx"><i class="icon_key_alt"></i>Log Out</a>
                             </li>
                             <li>
                                 <a href="documentation.html"><i class="icon_key_alt"></i>Documentation</a>
@@ -305,7 +305,7 @@
                 <!-- sidebar menu start-->
                 <ul class="sidebar-menu">
                     <li class="active">
-                        <a class="" href="index.html">
+                        <a class="" href="index.aspx">
                             <i class="icon_house_alt"></i>
                             <span>Dashboard</span>
                         </a>
@@ -313,15 +313,15 @@
                     <li class="sub-menu">
                         <a href="javascript:;" class="">
                             <i class="icon_document_alt"></i>
-                            <span>Forms</span>
+                            <span>Mail</span>
                             <span class="menu-arrow arrow_carrot-right"></span>
                         </a>
                         <ul class="sub">
-                            <li><a class="" href="form_component.html">Form Elements</a></li>
-                            <li><a class="" href="form_validation.html">Form Validation</a></li>
+                            <li><a class="" href="MailAdd.aspx">Ekle</a></li>
+                           <%-- <li><a class="" href="form_validation.html">Form Validation</a></li>--%>
                         </ul>
                     </li>
-                    <li class="sub-menu">
+                   <%-- <li class="sub-menu">
                         <a href="javascript:;" class="">
                             <i class="icon_desktop"></i>
                             <span>UI Fitures</span>
@@ -332,30 +332,30 @@
                             <li><a class="" href="buttons.html">Buttons</a></li>
                             <li><a class="" href="grids.html">Grids</a></li>
                         </ul>
-                    </li>
-                    <li>
+                    </li>--%>
+                  <%--  <li>
                         <a class="" href="widgets.html">
                             <i class="icon_genius"></i>
                             <span>Widgets</span>
                         </a>
-                    </li>
-                    <li>
+                    </li>--%>
+                  <%--  <li>
                         <a class="" href="chart-chartjs.html">
                             <i class="icon_piechart"></i>
                             <span>Charts</span>
 
                         </a>
 
-                    </li>
+                    </li>--%>
 
                     <li class="sub-menu">
                         <a href="javascript:;" class="">
                             <i class="icon_table"></i>
-                            <span>Tables</span>
+                            <span>Kullanıcı Kontrol</span>
                             <span class="menu-arrow arrow_carrot-right"></span>
                         </a>
                         <ul class="sub">
-                            <li><a class="" href="Usersnformation.aspx">Basic Table</a></li>
+                            <li><a class="" href="UsersInformation.aspx">Kullanıcılar</a></li>
                         </ul>
                     </li>
 
@@ -367,8 +367,8 @@
                         </a>
                         <ul class="sub">
                             <li><a class="" href="Profile.aspx">Profile</a></li>
-                            <li><a class="" href="login.html"><span>Login Page</span></a></li>
-                            <li><a class="" href="blank.html">Blank Page</a></li>
+                            <li><a class="" href="Login.aspx"><span>Login Page</span></a></li>
+                           <%-- <li><a class="" href="blank.html">Blank Page</a></li>--%>
                             <li><a class="" href="404.aspx">404 Error</a></li>
                         </ul>
                     </li>
@@ -386,7 +386,7 @@
                     <div class="col-lg-12">
                         <h3 class="page-header"><i class="fa fa-user-md"></i>Profile</h3>
                         <ol class="breadcrumb">
-                            <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+                            <li><i class="fa fa-home"></i><a href="index.aspx">Home</a></li>
                             <li><i class="icon_documents_alt"></i>Pages</li>
                             <li><i class="fa fa-user-md"></i>Profile</li>
                         </ol>
