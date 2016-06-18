@@ -94,129 +94,128 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Amin\404.aspx" />
-    <Content Include="Amin\assets\chart-master\index.html" />
-    <Content Include="Amin\assets\ckeditor\build-config.js" />
-    <Content Include="Amin\assets\ckeditor\ckeditor.js" />
-    <Content Include="Amin\assets\ckeditor\config.js" />
-    <Content Include="Amin\assets\ckeditor\contents.css" />
-    <Content Include="Amin\assets\ckeditor\styles.js" />
-    <Content Include="Amin\blank.aspx" />
-    <Content Include="Amin\blank.html" />
-    <Content Include="Amin\css\bootstrap-theme.css" />
-    <Content Include="Amin\css\bootstrap.min.css" />
-    <Content Include="Amin\css\Custom.css" />
-    <Content Include="Amin\css\elegant-icons-style.css" />
-    <Content Include="Amin\css\font-awesome.css" />
-    <Content Include="Amin\css\font-awesome.min.css" />
-    <Content Include="Amin\css\fullcalendar.css" />
-    <Content Include="Amin\css\jquery-jvectormap-1.2.2.css" />
-    <Content Include="Amin\css\jquery-ui-1.10.4.min.css" />
-    <Content Include="Amin\css\line-icons.css" />
-    <Content Include="Amin\css\owl.carousel.css" />
-    <Content Include="Amin\css\style-responsive.css" />
-    <Content Include="Amin\css\style.css" />
-    <Content Include="Amin\css\widgets.css" />
-    <Content Include="Amin\css\xcharts.min.css" />
-    <Content Include="Amin\fonts\ElegantIcons.svg" />
-    <Content Include="Amin\fonts\fontawesome-webfont.svg" />
-    <Content Include="Amin\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Amin\img\arrow-up.png" />
-    <Content Include="Amin\img\avatar-mini.jpg" />
-    <Content Include="Amin\img\avatar-mini2.jpg" />
-    <Content Include="Amin\img\avatar-mini3.jpg" />
-    <Content Include="Amin\img\avatar-mini4.jpg" />
-    <Content Include="Amin\img\avatar1.jpg" />
-    <Content Include="Amin\img\avatar1_small.jpg" />
-    <Content Include="Amin\img\bg-1.jpg" />
-    <Content Include="Amin\img\chart-texture.jpg" />
-    <Content Include="Amin\img\chat-avatar.jpg" />
-    <Content Include="Amin\img\chat-avatar2.jpg" />
-    <Content Include="Amin\img\customSelect-arrow.gif" />
-    <Content Include="Amin\img\geekslabs.png" />
-    <Content Include="Amin\img\Germany.png" />
-    <Content Include="Amin\img\icons\line-icon-c.png" />
-    <Content Include="Amin\img\icons\line-icon-hover.png" />
-    <Content Include="Amin\img\icons\line-icon.png" />
-    <Content Include="Amin\img\icons\search-line-icon.png" />
-    <Content Include="Amin\img\icons\social.png" />
-    <Content Include="Amin\img\icons\weather-hover.png" />
-    <Content Include="Amin\img\icons\weather.png" />
-    <Content Include="Amin\img\India.png" />
-    <Content Include="Amin\img\left-arrow.png" />
-    <Content Include="Amin\img\logo-big.png" />
-    <Content Include="Amin\img\mail-avatar.jpg" />
-    <Content Include="Amin\img\profile-avatar.jpg" />
-    <Content Include="Amin\img\profile-widget-avatar.jpg" />
-    <Content Include="Amin\img\right-arrow.png" />
-    <Content Include="Amin\img\Russia.png" />
-    <Content Include="Amin\img\sample-img-1.jpg" />
-    <Content Include="Amin\img\sample-img-2.png" />
-    <Content Include="Amin\img\sample-img-3.png" />
-    <Content Include="Amin\img\search-icon.jpg" />
-    <Content Include="Amin\img\Spain.png" />
-    <Content Include="Amin\img\user.jpg" />
-    <Content Include="Amin\img\user22.png" />
-    <Content Include="Amin\index.aspx" />
-    <Content Include="Amin\js\additional-methods.min.js" />
-    <Content Include="Amin\js\bootstrap-switch.js" />
-    <Content Include="Amin\js\bootstrap-wysiwyg-custom.js" />
-    <Content Include="Amin\js\bootstrap-wysiwyg.js" />
-    <Content Include="Amin\js\bootstrap.js" />
-    <Content Include="Amin\js\bootstrap.min.js" />
-    <Content Include="Amin\js\calendar-custom.js" />
-    <Content Include="Amin\js\chartjs-custom.js" />
-    <Content Include="Amin\js\charts-flot.js" />
-    <Content Include="Amin\js\charts-other.js" />
-    <Content Include="Amin\js\charts-xcharts.js" />
-    <Content Include="Amin\js\charts.js" />
-    <Content Include="Amin\js\dynamic-table.js" />
-    <Content Include="Amin\js\easy-pie-chart.js" />
-    <Content Include="Amin\js\excanvas.min.js" />
-    <Content Include="Amin\js\form-component.js" />
-    <Content Include="Amin\js\form-validation-script.js" />
-    <Content Include="Amin\js\fullcalendar.js" />
-    <Content Include="Amin\js\fullcalendar.min.js" />
-    <Content Include="Amin\js\ga.js" />
-    <Content Include="Amin\js\gdp-data.js" />
-    <Content Include="Amin\js\gritter.js" />
-    <Content Include="Amin\js\html5shiv.js" />
-    <Content Include="Amin\js\index.js" />
-    <Content Include="Amin\js\jquery-1.8.3.min.js" />
-    <Content Include="Amin\js\jquery-jvectormap-1.2.2.min.js" />
-    <Content Include="Amin\js\jquery-jvectormap-world-mill-en.js" />
-    <Content Include="Amin\js\jquery-ui-1.10.4.min.js" />
-    <Content Include="Amin\js\jquery-ui-1.9.2.custom.min.js" />
-    <Content Include="Amin\js\jquery.autosize.min.js" />
-    <Content Include="Amin\js\jquery.customSelect.min.js" />
-    <Content Include="Amin\js\jquery.flot.pie.js" />
-    <Content Include="Amin\js\jquery.hotkeys.js" />
-    <Content Include="Amin\js\jquery.js" />
-    <Content Include="Amin\js\jquery.localscroll.js" />
-    <Content Include="Amin\js\jquery.nicescroll.js" />
-    <Content Include="Amin\js\jquery.placeholder.min.js" />
-    <Content Include="Amin\js\jquery.rateit.min.js" />
-    <Content Include="Amin\js\jquery.scrollTo.min.js" />
-    <Content Include="Amin\js\jquery.slimscroll.min.js" />
-    <Content Include="Amin\js\jquery.smartWizard.js" />
-    <Content Include="Amin\js\jquery.sparkline-11.js" />
-    <Content Include="Amin\js\jquery.sparkline.js" />
-    <Content Include="Amin\js\jquery.stepy.js" />
-    <Content Include="Amin\js\jquery.tagsinput.js" />
-    <Content Include="Amin\js\jquery.validate.min.js" />
-    <Content Include="Amin\js\lte-ie7.js" />
-    <Content Include="Amin\js\morris-script.js" />
-    <Content Include="Amin\js\morris.min.js" />
-    <Content Include="Amin\js\owl.carousel.js" />
-    <Content Include="Amin\js\scripts.js" />
-    <Content Include="Amin\js\sliders.js" />
-    <Content Include="Amin\js\sparkline-chart.js" />
-    <Content Include="Amin\js\sparklines.js" />
-    <Content Include="Amin\js\xcharts.min.js" />
-    <Content Include="Amin\Login.aspx" />
-    <Content Include="Amin\MailAdd.aspx" />
-    <Content Include="Amin\Profile.aspx" />
-    <Content Include="Amin\UsersInformation.aspx" />
+    <Content Include="Admin\404.aspx" />
+    <Content Include="Admin\assets\chart-master\index.html" />
+    <Content Include="Admin\assets\ckeditor\build-config.js" />
+    <Content Include="Admin\assets\ckeditor\ckeditor.js" />
+    <Content Include="Admin\assets\ckeditor\config.js" />
+    <Content Include="Admin\assets\ckeditor\contents.css" />
+    <Content Include="Admin\assets\ckeditor\styles.js" />
+    <Content Include="Admin\blank.aspx" />
+    <Content Include="Admin\css\bootstrap-theme.css" />
+    <Content Include="Admin\css\bootstrap.min.css" />
+    <Content Include="Admin\css\Custom.css" />
+    <Content Include="Admin\css\elegant-icons-style.css" />
+    <Content Include="Admin\css\font-awesome.css" />
+    <Content Include="Admin\css\font-awesome.min.css" />
+    <Content Include="Admin\css\fullcalendar.css" />
+    <Content Include="Admin\css\jquery-jvectormap-1.2.2.css" />
+    <Content Include="Admin\css\jquery-ui-1.10.4.min.css" />
+    <Content Include="Admin\css\line-icons.css" />
+    <Content Include="Admin\css\owl.carousel.css" />
+    <Content Include="Admin\css\style-responsive.css" />
+    <Content Include="Admin\css\style.css" />
+    <Content Include="Admin\css\widgets.css" />
+    <Content Include="Admin\css\xcharts.min.css" />
+    <Content Include="Admin\fonts\ElegantIcons.svg" />
+    <Content Include="Admin\fonts\fontawesome-webfont.svg" />
+    <Content Include="Admin\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Admin\img\arrow-up.png" />
+    <Content Include="Admin\img\avatar-mini.jpg" />
+    <Content Include="Admin\img\avatar-mini2.jpg" />
+    <Content Include="Admin\img\avatar-mini3.jpg" />
+    <Content Include="Admin\img\avatar-mini4.jpg" />
+    <Content Include="Admin\img\avatar1.jpg" />
+    <Content Include="Admin\img\avatar1_small.jpg" />
+    <Content Include="Admin\img\bg-1.jpg" />
+    <Content Include="Admin\img\chart-texture.jpg" />
+    <Content Include="Admin\img\chat-avatar.jpg" />
+    <Content Include="Admin\img\chat-avatar2.jpg" />
+    <Content Include="Admin\img\customSelect-arrow.gif" />
+    <Content Include="Admin\img\geekslabs.png" />
+    <Content Include="Admin\img\Germany.png" />
+    <Content Include="Admin\img\icons\line-icon-c.png" />
+    <Content Include="Admin\img\icons\line-icon-hover.png" />
+    <Content Include="Admin\img\icons\line-icon.png" />
+    <Content Include="Admin\img\icons\search-line-icon.png" />
+    <Content Include="Admin\img\icons\social.png" />
+    <Content Include="Admin\img\icons\weather-hover.png" />
+    <Content Include="Admin\img\icons\weather.png" />
+    <Content Include="Admin\img\India.png" />
+    <Content Include="Admin\img\left-arrow.png" />
+    <Content Include="Admin\img\logo-big.png" />
+    <Content Include="Admin\img\mail-avatar.jpg" />
+    <Content Include="Admin\img\profile-avatar.jpg" />
+    <Content Include="Admin\img\profile-widget-avatar.jpg" />
+    <Content Include="Admin\img\right-arrow.png" />
+    <Content Include="Admin\img\Russia.png" />
+    <Content Include="Admin\img\sample-img-1.jpg" />
+    <Content Include="Admin\img\sample-img-2.png" />
+    <Content Include="Admin\img\sample-img-3.png" />
+    <Content Include="Admin\img\search-icon.jpg" />
+    <Content Include="Admin\img\Spain.png" />
+    <Content Include="Admin\img\user.jpg" />
+    <Content Include="Admin\img\user22.png" />
+    <Content Include="Admin\index.aspx" />
+    <Content Include="Admin\js\additional-methods.min.js" />
+    <Content Include="Admin\js\bootstrap-switch.js" />
+    <Content Include="Admin\js\bootstrap-wysiwyg-custom.js" />
+    <Content Include="Admin\js\bootstrap-wysiwyg.js" />
+    <Content Include="Admin\js\bootstrap.js" />
+    <Content Include="Admin\js\bootstrap.min.js" />
+    <Content Include="Admin\js\calendar-custom.js" />
+    <Content Include="Admin\js\chartjs-custom.js" />
+    <Content Include="Admin\js\charts-flot.js" />
+    <Content Include="Admin\js\charts-other.js" />
+    <Content Include="Admin\js\charts-xcharts.js" />
+    <Content Include="Admin\js\charts.js" />
+    <Content Include="Admin\js\dynamic-table.js" />
+    <Content Include="Admin\js\easy-pie-chart.js" />
+    <Content Include="Admin\js\excanvas.min.js" />
+    <Content Include="Admin\js\form-component.js" />
+    <Content Include="Admin\js\form-validation-script.js" />
+    <Content Include="Admin\js\fullcalendar.js" />
+    <Content Include="Admin\js\fullcalendar.min.js" />
+    <Content Include="Admin\js\ga.js" />
+    <Content Include="Admin\js\gdp-data.js" />
+    <Content Include="Admin\js\gritter.js" />
+    <Content Include="Admin\js\html5shiv.js" />
+    <Content Include="Admin\js\index.js" />
+    <Content Include="Admin\js\jquery-1.8.3.min.js" />
+    <Content Include="Admin\js\jquery-jvectormap-1.2.2.min.js" />
+    <Content Include="Admin\js\jquery-jvectormap-world-mill-en.js" />
+    <Content Include="Admin\js\jquery-ui-1.10.4.min.js" />
+    <Content Include="Admin\js\jquery-ui-1.9.2.custom.min.js" />
+    <Content Include="Admin\js\jquery.autosize.min.js" />
+    <Content Include="Admin\js\jquery.customSelect.min.js" />
+    <Content Include="Admin\js\jquery.flot.pie.js" />
+    <Content Include="Admin\js\jquery.hotkeys.js" />
+    <Content Include="Admin\js\jquery.js" />
+    <Content Include="Admin\js\jquery.localscroll.js" />
+    <Content Include="Admin\js\jquery.nicescroll.js" />
+    <Content Include="Admin\js\jquery.placeholder.min.js" />
+    <Content Include="Admin\js\jquery.rateit.min.js" />
+    <Content Include="Admin\js\jquery.scrollTo.min.js" />
+    <Content Include="Admin\js\jquery.slimscroll.min.js" />
+    <Content Include="Admin\js\jquery.smartWizard.js" />
+    <Content Include="Admin\js\jquery.sparkline-11.js" />
+    <Content Include="Admin\js\jquery.sparkline.js" />
+    <Content Include="Admin\js\jquery.stepy.js" />
+    <Content Include="Admin\js\jquery.tagsinput.js" />
+    <Content Include="Admin\js\jquery.validate.min.js" />
+    <Content Include="Admin\js\lte-ie7.js" />
+    <Content Include="Admin\js\morris-script.js" />
+    <Content Include="Admin\js\morris.min.js" />
+    <Content Include="Admin\js\owl.carousel.js" />
+    <Content Include="Admin\js\scripts.js" />
+    <Content Include="Admin\js\sliders.js" />
+    <Content Include="Admin\js\sparkline-chart.js" />
+    <Content Include="Admin\js\sparklines.js" />
+    <Content Include="Admin\js\xcharts.min.js" />
+    <Content Include="Admin\Login.aspx" />
+    <Content Include="Admin\MailAdd.aspx" />
+    <Content Include="Admin\Profile.aspx" />
+    <Content Include="Admin\UsersInformation.aspx" />
     <Content Include="packages.config" />
     <Content Include="Main.Master" />
     <Content Include="fonts\fontawesome-webfont.eot" />
@@ -226,20 +225,20 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Amin\fonts\ElegantIcons.eot" />
-    <Content Include="Amin\fonts\ElegantIcons.ttf" />
-    <Content Include="Amin\fonts\ElegantIcons.woff" />
-    <Content Include="Amin\fonts\fontawesome-webfont.eot" />
-    <Content Include="Amin\fonts\fontawesome-webfont.ttf" />
-    <Content Include="Amin\fonts\fontawesome-webfont.woff" />
-    <Content Include="Amin\fonts\FontAwesome.otf" />
-    <Content Include="Amin\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Amin\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Amin\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Amin\assets\ckeditor\.DS_Store" />
-    <Content Include="Amin\assets\ckeditor\CHANGES.md" />
-    <Content Include="Amin\assets\ckeditor\LICENSE.md" />
-    <Content Include="Amin\assets\ckeditor\README.md" />
+    <Content Include="Admin\fonts\ElegantIcons.eot" />
+    <Content Include="Admin\fonts\ElegantIcons.ttf" />
+    <Content Include="Admin\fonts\ElegantIcons.woff" />
+    <Content Include="Admin\fonts\fontawesome-webfont.eot" />
+    <Content Include="Admin\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Admin\fonts\fontawesome-webfont.woff" />
+    <Content Include="Admin\fonts\FontAwesome.otf" />
+    <Content Include="Admin\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Admin\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Admin\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Admin\assets\ckeditor\.DS_Store" />
+    <Content Include="Admin\assets\ckeditor\CHANGES.md" />
+    <Content Include="Admin\assets\ckeditor\LICENSE.md" />
+    <Content Include="Admin\assets\ckeditor\README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -268,53 +267,53 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Amin\404.aspx.cs">
+    <Compile Include="Admin\404.aspx.cs">
       <DependentUpon>404.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Amin\404.aspx.designer.cs">
+    <Compile Include="Admin\404.aspx.designer.cs">
       <DependentUpon>404.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Amin\blank.aspx.cs">
+    <Compile Include="Admin\blank.aspx.cs">
       <DependentUpon>blank.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Amin\blank.aspx.designer.cs">
+    <Compile Include="Admin\blank.aspx.designer.cs">
       <DependentUpon>blank.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Amin\index.aspx.cs">
+    <Compile Include="Admin\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Amin\index.aspx.designer.cs">
+    <Compile Include="Admin\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Amin\Login.aspx.cs">
+    <Compile Include="Admin\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Amin\Login.aspx.designer.cs">
+    <Compile Include="Admin\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Amin\MailAdd.aspx.cs">
+    <Compile Include="Admin\MailAdd.aspx.cs">
       <DependentUpon>MailAdd.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Amin\MailAdd.aspx.designer.cs">
+    <Compile Include="Admin\MailAdd.aspx.designer.cs">
       <DependentUpon>MailAdd.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Amin\Profile.aspx.cs">
+    <Compile Include="Admin\Profile.aspx.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Amin\Profile.aspx.designer.cs">
+    <Compile Include="Admin\Profile.aspx.designer.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Amin\UsersInformation.aspx.cs">
+    <Compile Include="Admin\UsersInformation.aspx.cs">
       <DependentUpon>UsersInformation.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Amin\UsersInformation.aspx.designer.cs">
+    <Compile Include="Admin\UsersInformation.aspx.designer.cs">
       <DependentUpon>UsersInformation.aspx</DependentUpon>
     </Compile>
     <Compile Include="DBO.cs" />

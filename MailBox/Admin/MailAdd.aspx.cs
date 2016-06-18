@@ -14,9 +14,9 @@ namespace MailBox.Admin
 
         }
 
-        protected void Unnamed_Click(object sender, EventArgs e)
+        protected void Save(object sender, EventArgs e)
         {
-            Response.Redirect("404.aspx");
+
         }
     }
 }

@@ -362,7 +362,7 @@
                         <ul class="sub">
                             <li><a class="" href="Profile.aspx">Profile</a></li>
                             <li><a class="" href="Login.aspx"><span>Login Page</span></a></li>
-                       <%--     <li><a class="" href="blank.aspx">Blank Page</a></li>--%>
+                            <%--     <li><a class="" href="blank.aspx">Blank Page</a></li>--%>
                             <li><a class="" href="404.aspx">404 Error</a></li>
                         </ul>
                     </li>
@@ -372,80 +372,65 @@
         </aside>
         <!--sidebar end-->
         <section id="main-content">
-            <form runat="server">
-                <section class="wrapper">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h3 class="page-header"><i class="fa fa-file-text-o"></i>Yeni Konu Ekle</h3>
-                            <ol class="breadcrumb">
-                                <li><i class="fa fa-home"></i><a href="index.aspx">Home</a></li>
-                                <li><i class="icon_document_alt"></i>Mail</li>
-                                <li><i class="fa fa-file-text-o"></i>Ekle</li>
-                            </ol>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <section class="panel">
-                                        <header class="panel-heading">
-                                            Ön bilgiler
-                                        </header>
-                                        <div class="panel-body">
-                                            <form class="form-horizontal " method="get">
-                                                <div class="form-group">
-                                                    <label class="col-sm-2 control-label">Başlık</label>
-                                                    <div class="col-sm-10">
-                                                        <input type="text" class="form-control" />
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <asp:Label ID="CountryText" runat="server" Text="Konu" CssClass="col-lg-2 control-label"></asp:Label>
-                                                    <div class="col-lg-10">
-                                                        <asp:DropDownList runat="server" CssClass="form-control ddl">
-                                                            <asp:ListItem>Gündem</asp:ListItem>
-                                                            <asp:ListItem>Teknoloji</asp:ListItem>
-                                                            <asp:ListItem>Spor</asp:ListItem>
-                                                        </asp:DropDownList>
-                                                    </div>
-                                                </div>
 
-
-                                            </form>
-                                        </div>
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
+            <section class="wrapper">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3 class="page-header"><i class="fa fa-file-text-o"></i>Yeni Konu Ekle</h3>
+                        <ol class="breadcrumb">
+                            <li><i class="fa fa-home"></i><a href="index.aspx">Home</a></li>
+                            <li><i class="icon_document_alt"></i>Mail</li>
+                            <li><i class="fa fa-file-text-o"></i>Ekle</li>
+                        </ol>
                     </div>
-                    <div class="row">
-                        <!-- CKEditor -->
-                        <div class="col-lg-12">
-                            <section class="panel">
-                                <header class="panel-heading">
-                                    Mail İçeriği
-                                </header>
-                                <div class="panel-body">
-                                    <div class="form">
-                                        <form action="#" class="form-horizontal">
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <section class="panel">
+                                    <header class="panel-heading">
+                                        Ön bilgiler
+                                    </header>
+                                    <div class="panel-body">
+                                        <form class="form-horizontal" runat="server" method="get">
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">Başlık</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <asp:Label ID="CountryText" runat="server" Text="Konu" CssClass="col-lg-2 control-label"></asp:Label>
+                                                <div class="col-lg-10">
+                                                    <asp:DropDownList runat="server" CssClass="form-control ddl">
+                                                        <asp:ListItem>Select</asp:ListItem>
+                                                        <asp:ListItem>Gündem</asp:ListItem>
+                                                        <asp:ListItem>Teknoloji</asp:ListItem>
+                                                        <asp:ListItem>Spor</asp:ListItem>
+                                                    </asp:DropDownList>
+                                                </div>
+                                            </div>
+
                                             <div class="form-group">
                                                 <label class="control-label col-sm-2">İçerik</label>
                                                 <div class="col-sm-10">
                                                     <textarea class="form-control ckeditor" name="editor1" rows="6"></textarea>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-12">
-                                                <asp:Button Text="Kaydet" class="btn btn-primary PozisyonRight" runat="server" OnClick="Unnamed_Click" />
+                                            <div class="form-group">
+                                                <div class="col-lg-12">
+                                                    <asp:Button Text="Kaydet" class="btn btn-primary PozisyonRight" runat="server" OnClick="Save"  />
+                                                </div>
                                             </div>
                                         </form>
                                     </div>
-                                </div>
-                            </section>
+                                </section>
+                            </div>
                         </div>
                     </div>
-                </section>
-            </form>
+                </div>
+            </section>
         </section>
     </section>
 
