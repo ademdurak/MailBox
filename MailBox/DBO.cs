@@ -112,6 +112,31 @@ namespace MailBox
                 cmd.Dispose();
             }
         }
+        public void MailAdd(Mail m)
+        {
+            try
+            {
+                using (cmd = new SqlCommand())
+                {
+                    cmd.Connection = cnn;
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.CommandText = "MailAdd";
+                    cmd.Parameters.AddWithValue("@Category", m.Category);
+                    cmd.Parameters.AddWithValue("@Header", m.Header);
+                    cmd.Parameters.AddWithValue("@Content", m.Content);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                               
+            }
+            finally
+            {
+                cnn.Close();
+                cmd.Dispose();
+            }
+        }
 
     }
 }

@@ -316,6 +316,7 @@
     <Compile Include="Admin\UsersInformation.aspx.designer.cs">
       <DependentUpon>UsersInformation.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Category.cs" />
     <Compile Include="DBO.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -331,6 +332,7 @@
     <Compile Include="iletisim.aspx.designer.cs">
       <DependentUpon>iletisim.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Mail.cs" />
     <Compile Include="Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

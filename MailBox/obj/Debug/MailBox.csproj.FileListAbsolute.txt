@@ -60,3 +60,4 @@ C:\Users\SOFTWARE\Documents\Visual Studio 2015\Projects\MailBox\MailBox\bin\Micr
 C:\Users\SOFTWARE\Documents\Visual Studio 2015\Projects\MailBox\MailBox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\SOFTWARE\Documents\Visual Studio 2015\Projects\MailBox\MailBox\obj\Debug\MailBox.dll
 C:\Users\SOFTWARE\Documents\Visual Studio 2015\Projects\MailBox\MailBox\obj\Debug\MailBox.pdb
+C:\Users\SOFTWARE\Documents\Visual Studio 2015\Projects\MailBox\MailBox\obj\Debug\MailBox.csprojResolveAssemblyReference.cache

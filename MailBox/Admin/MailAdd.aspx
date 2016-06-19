@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MailAdd.aspx.cs" Inherits="MailBox.Admin.MailAdd" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MailAdd.aspx.cs" validateRequest="false" Inherits="MailBox.Admin.MailAdd" %>
 
 <!DOCTYPE html>
 
@@ -53,7 +53,7 @@
                 <!--  search form end -->
             </div>
 
-            <div class="top-nav notification-row">
+            <div class="top-nav notification-row">784
                 <!-- notificatoin dropdown start-->
                 <ul class="nav pull-right top-menu">
 
@@ -156,7 +156,7 @@
                             <li>
                                 <a href="#">
                                     <span class="photo">
-                                        <img alt="avatar" src="./img/avatar-mini.jpg"></span>
+                                        <img alt="avatar" src="./img/avatar-mini.jpg"/></span>
                                     <span class="subject">
                                         <span class="from">Greg  Martin</span>
                                         <span class="time">1 min</span>
@@ -168,7 +168,7 @@
                             <li>
                                 <a href="#">
                                     <span class="photo">
-                                        <img alt="avatar" src="./img/avatar-mini2.jpg"></span>
+                                        <img alt="avatar" src="./img/avatar-mini2.jpg"/></span>
                                     <span class="subject">
                                         <span class="from">Bob   Mckenzie</span>
                                         <span class="time">5 mins</span>
@@ -192,7 +192,7 @@
                             <li>
                                 <a href="#">
                                     <span class="photo">
-                                        <img alt="avatar" src="./img/avatar-mini4.jpg"></span>
+                                        <img alt="avatar" src="./img/avatar-mini4.jpg"/></span>
                                     <span class="subject">
                                         <span class="from">Ray   Munoz</span>
                                         <span class="time">1 day</span>
@@ -397,17 +397,17 @@
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label">Başlık</label>
                                                 <div class="col-sm-10">
-                                                    <input type="text" class="form-control" />
+                                                    <input type="text" id="txtHeader" runat="server" class="form-control" />
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <asp:Label ID="CountryText" runat="server" Text="Konu" CssClass="col-lg-2 control-label"></asp:Label>
+                                                <asp:Label ID="CategoryText" runat="server" Text="Konu" CssClass="col-lg-2 control-label"></asp:Label>
                                                 <div class="col-lg-10">
-                                                    <asp:DropDownList runat="server" CssClass="form-control ddl">
-                                                        <asp:ListItem>Select</asp:ListItem>
-                                                        <asp:ListItem>Gündem</asp:ListItem>
-                                                        <asp:ListItem>Teknoloji</asp:ListItem>
-                                                        <asp:ListItem>Spor</asp:ListItem>
+                                                    <asp:DropDownList runat="server" ID="ddlCategory" CssClass="form-control ddl">
+                                                        <asp:ListItem Value="0">Select</asp:ListItem>
+                                                        <asp:ListItem Value="1">Gündem</asp:ListItem>
+                                                        <asp:ListItem Value="2">Teknoloji</asp:ListItem>
+                                                        <asp:ListItem Value="3">Spor</asp:ListItem>
                                                     </asp:DropDownList>
                                                 </div>
                                             </div>
@@ -415,12 +415,17 @@
                                             <div class="form-group">
                                                 <label class="control-label col-sm-2">İçerik</label>
                                                 <div class="col-sm-10">
-                                                    <textarea class="form-control ckeditor" name="editor1" rows="6"></textarea>
+                                                    <textarea class="form-control ckeditor" runat="server" id="txtContent" name="editor1" rows="6"></textarea>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <div class="col-lg-12">
                                                     <asp:Button Text="Kaydet" class="btn btn-primary PozisyonRight" runat="server" OnClick="Save"  />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-lg-12">
+                                                    <asp:Label CssClass="PozisyonRight" ID="lblSonuc" Text="" runat="server" />
                                                 </div>
                                             </div>
                                         </form>
